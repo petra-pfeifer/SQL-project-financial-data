@@ -8,28 +8,28 @@ Tento projekt je součástí workshopu z kurzu **SQL - datová analýza** od Cod
 
 Během řešení workshopu jsem se zaměřila na několik hlavních oblastí, abych provedla ucelenou analýzu finančních dat a získala cenné poznatky.
 
-**1.** Historie poskytnutých úvěrů:
+**1. Historie poskytnutých úvěrů:**
 - Vytvoření souhrnu poskytnutých půjček, rozděleného podle roku, čtvrtletí a měsíce.
 - Výsledky zahrnují celkovou částku, průměrnou částku a počet půjček.
 
-**2.** Stav půjček a analýza účtů:
+**2. Stav půjček a analýza účtů:**
 - Identifikace, které statusy v databázi odpovídají splaceným a nesplaceným půjčkám.
 - Seřazení bankovních účtů podle počtu splacených půjček, jejich celkové částky a průměrné částky.
 
-**3.** Analýza klientů podle pohlaví a věku:
+**3. Analýza klientů podle pohlaví a věku:**
 - Zjištění, zda mají více splacených půjček ženy nebo muži.
 - Výpočet průměrného věku dlužníků, rozdělený podle pohlaví.
 
-**4.** Geografická analýza klientů:
+**4. Geografická analýza klientů:**
 - Určení okresu s nejvyšším počtem klientů.
 - Identifikace okresu s nejvyšším počtem splacených půjček a nejvyšší celkovou splacenou částkou.
 - Výpočet procentuálního podílu každého okresu na celkové částce splacených půjček.
 
-**5.** Výběr klientů na základě specifických kritérií:
+**5. Výběr klientů na základě specifických kritérií:**
 - Vyhledání klientů, kteří splňují kombinaci tří podmínek: zůstatek na účtu > 1000, více než 5 půjček a datum narození po roce 1990.
 - Analýza, která z těchto podmínek je nejvíce omezující a vede k prázdnému výsledku.
 
-**6.** Správa vypršení platnosti karet**:
+**6. Správa vypršení platnosti karet:**
 - Vytvoření uložené procedury pro automatické generování a aktualizaci tabulky `cards_at_expiration`.
 - Tato tabulka obsahuje informace o klientech, jejich kartách, datu vypršení platnosti (3 roky od vydání) a adrese klienta.
 
